@@ -5,17 +5,14 @@ public class age{
         System.out.println("Enter you age here: ");
         int age;
         try {
-            age = tastatur.nextInt();
-         
+            age = tastatur.nextInt();         
             if (age < 18) {
                 System.out.println("You are not an adult!");
             } else {
                 System.out.println("You are an adult");
             }
-        }
-        catch (Exception u){
+        } catch (Exception u){
             System.err.println("Wrong format you must enter an whole number!");
         }
-
     }
 }
